@@ -1,0 +1,242 @@
+*{  padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+
+}
+#nav {
+    display: inline-block;
+}
+#nav > li { display: inline-block;
+    position: relative;
+}
+#nav , .subnav {
+    list-style: none;
+    top: 100%;
+    left: 0;
+}
+
+#nav > li > a {
+    text-transform : uppercase;
+
+}
+#nav .subnav a{padding: 0 16px;
+    line-height: 38px;
+    color: black;
+    background-color: #fff;
+    width: 150px;
+    }
+#nav .subnav  {box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: absolute;
+    display: none;
+    }
+
+#nav li:hover .subnav{display: block;
+
+}
+#nav li a{
+    color:#fff;
+    text-decoration :none;
+    line-height: 46.4px;
+    padding: 0 24px;
+    display: block;
+
+}
+#nav > li:hover >a { color: black;  
+    background-color: #ccc;
+}
+#nav .subnav li:hover a{  color: black;
+    background-color: #ccc;
+}
+#header{ height: 46.4px;width: 100%;
+       background-color:  black;
+       position: fixed;
+       z-index: 2;
+top:0px;
+left: 0px;
+right: 0px;
+    }
+
+#header .seach{
+    float: right;
+    line-height: 46.4px;
+    padding: 0 14px;
+    color: #fff;
+    font-size: 15px;
+}
+.seach:hover{
+    background-color: red;
+    cursor: pointer ;
+}
+#slider{margin-top: 46.4px;
+    padding-top: 50%;
+    background: url(./W3/asets/img/ny.jpg) top center/cover no-repeat;
+    position: relative;
+}
+#slider .new {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    width: 100%;
+    text-align: center; 
+}
+#slider .new .chinh{font-size 24px;font-weight: 500;  
+}
+#slider .new .phu{font-size 15px;margin-top: 15px;
+}
+
+#content{width: 800px;
+    margin-left: auto;margin-right: auto;
+    
+}
+.chung{
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 5;font-size: 28px;}
+.chungchung{text-align: center;margin-top: 30px;
+    font-style: italic; 
+    opacity: 0.6;
+}
+#content .content1{margin-top: 20px;text-align: justify;
+    line-height: 1.4;
+}   
+
+#content .name{ 
+     display: flex;
+    justify-content: space-between ;
+
+}
+
+#content .name .name1{
+    text-align: center;
+    margin : 60px 50px 40px;
+    
+}
+#content .name .name1 .ad{
+    padding: 10px;
+}
+
+#tour {width: 100%;
+    height: 845px;
+    background-color: black;
+    margin-top: 65px;   
+}
+
+#tour .taolao1{
+    padding: 35px;
+}
+#tour .taolao {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-bottom:inset;
+    padding: 10px;
+}
+#tour .taolao ul li a{ text-decoration: none
+;
+}
+
+#tour .taolao ul li{display: inline-block;
+    margin-right: 25px;
+
+}
+#tour .chinhanh { display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#tour .anh1{
+    margin: 0 15px 0 0;
+    background-color: #fff;
+}
+#tour .anh2{
+    background-color: #fff;
+}
+#tour .anh3{ background-color: #fff;
+    margin: 0 0 0 15px;
+}
+#tour  img:hover { opacity:0.5;
+}
+.chinhanh p{
+    line-height: 30px;
+    padding: 20px 10px;
+}
+.chinhanh p >i{
+    color: black;
+}
+.chinhanh b{
+    color: black;   
+}
+#tour .chinhanh i{
+    opacity: 0.3;
+}
+.chinhanh a{
+    padding: 0 10px;
+    display: block;
+}
+.chinhanh button{background-color: black;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  
+
+}
+.chinhanh button:hover{
+    opacity: 1;
+    cursor: pointer;
+    color: #000;
+    background: #ccc;
+}
+
+
+#contact {
+
+}
+#contact .container{
+    line-height: 30px;
+    font-size: 20px;
+    width: 800px;
+    display: flex;
+    margin: 30px auto;
+}
+
+#contact .icon { font-size: 20px;
+    padding: 10px;
+
+}
+#contact .iduc{
+    margin: 0 0 0 auto;
+    
+}
+#contact .iduc input{
+    padding :10px;
+ min-width: 200px;
+}
+.container:hover button{
+    opacity: 1;
+    cursor: pointer;
+    color: #000;
+    background: #ccc;
+}
+.container button{
+    color:#fff;background-color:#000
+}
+
+#footer{
+    filter: contrast(0.5);
+    text-align: center;
+    
+}
+
+#footer .icon {
+    font-size: 20px;
+    padding: 80px;
+}
